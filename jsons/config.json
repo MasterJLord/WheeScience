@@ -1,0 +1,17 @@
+{
+    "PixelsPerUnit": 8,
+    "PlayerWidth": 4,
+    "PlayerHeight": 10,
+    "BackgroundGridSize": 30,
+    "FloorHeight": 15,
+    "SpeedAnimation": 1,
+    "HorizontalAcceleration": 9,
+    "HorizontalDragFlat": 3,
+    "HorizontalMaxSpeed": 18,
+    "JumpVelocity" : 30,
+    "Gravity": 20,
+    "MinimumForgiveness": 1,
+    "MaximumForgiveness": 2,
+    "RespawnMultiplier": 2,
+    "SongName": "Infernal Catharsis.mp3"
+}
