@@ -1,6 +1,6 @@
 {
-    "PresetName": "Control",
-    "PixelsPerUnit": 4,
+    "PresetName": "Zoomed Out",
+    "PixelsPerUnit": 2,
     "PlayerWidth": 6,
     "PlayerHeight": 15,
     "BackgroundGridSize": 30,

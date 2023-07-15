@@ -1,5 +1,5 @@
 {
-    "PresetName": "Control",
+    "PresetName": "Strong Acceleration",
     "PixelsPerUnit": 4,
     "PlayerWidth": 6,
     "PlayerHeight": 15,
@@ -7,7 +7,7 @@
     "FloorHeight": 15,
     "SpeedAnimation": 0.03,
     "IndicatorUptime": 0.15,
-    "HorizontalAcceleration": 135,
+    "HorizontalAcceleration": 340,
     "HorizontalDragFlat": 20,
     "HorizontalMaxSpeed": 160,
     "CoyoteTime": 0.11,

@@ -1,5 +1,5 @@
 {
-    "PresetName": "Control",
+    "PresetName": "Higher Gravity",
     "PixelsPerUnit": 4,
     "PlayerWidth": 6,
     "PlayerHeight": 15,
@@ -11,8 +11,8 @@
     "HorizontalDragFlat": 20,
     "HorizontalMaxSpeed": 160,
     "CoyoteTime": 0.11,
-    "JumpVelocity" : 80,
-    "Gravity": 100,
+    "JumpVelocity" : 240,
+    "Gravity": 300,
     "MinimumForgiveness": 2,
     "MaximumForgiveness": 5,
     "RespawnMultiplier": 2,

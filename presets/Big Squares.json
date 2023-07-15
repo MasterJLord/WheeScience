@@ -1,9 +1,9 @@
 {
-    "PresetName": "Control",
+    "PresetName": "Big Squares",
     "PixelsPerUnit": 4,
     "PlayerWidth": 6,
     "PlayerHeight": 15,
-    "BackgroundGridSize": 30,
+    "BackgroundGridSize": 90,
     "FloorHeight": 15,
     "SpeedAnimation": 0.03,
     "IndicatorUptime": 0.15,

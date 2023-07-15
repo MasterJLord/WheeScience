@@ -1,8 +1,8 @@
 {
-    "PresetName": "Control",
+    "PresetName": "Small Character",
     "PixelsPerUnit": 4,
-    "PlayerWidth": 6,
-    "PlayerHeight": 15,
+    "PlayerWidth": 2,
+    "PlayerHeight": 5,
     "BackgroundGridSize": 30,
     "FloorHeight": 15,
     "SpeedAnimation": 0.03,
