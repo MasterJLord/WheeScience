@@ -31,10 +31,11 @@ class Blank:
         self.SongName = information["SongName"]
 
 for p in range(len(RandomlyChosenPresets)):
+    print(p)
     clock = pygame.time.Clock()
     finalscreen = pygame.display.set_mode((1500, 1000))
     intermediatescreen = pygame.Surface((1500, 1000), pygame.SRCALPHA)
-    settingsTemp = json.loads(open("presets/"+RandomlyChosenPresets[p-1], "r").read())
+    settingsTemp = json.loads(open("presets/"+RandomlyChosenPresets[p], "r").read())
     Settings = Blank(settingsTemp)
     PlayerCharacter = pygame.Surface((Settings.PlayerWidth*Settings.PixelsPerUnit, Settings.PlayerHeight*Settings.PixelsPerUnit), pygame.SRCALPHA)
     PlayerCharacter.fill((0, 0, 0))
@@ -204,8 +205,8 @@ for p in range(len(RandomlyChosenPresets)):
             open("Records.csv", "x")
         except:
             pass
-        tempa = str(vars(Settings).values())
-        tempb = [p, TotalTime, Score, Deaths, tempa[13:len(tempa)-2]]
+        # tempa = str(vars(Settings).values())
+        tempb = [Settings.PresetName, p+1, TotalTime, Score, Deaths]
         tempb = str(tempb).replace("'", "").replace('"', "").replace(", ", ",")
         tempb = tempb[1:len(tempb)-1]
         open("Records.csv", "a").write(str(tempb)+"\n")
