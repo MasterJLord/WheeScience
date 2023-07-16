@@ -3,7 +3,7 @@ import pygame, json, random, math
 
 PresetsOptions = ["Big Squares.json", "Higher Gravity.json", "Small Character.json", "Fast Turnaround.json", "Strong Acceleration.json", "Thin Platforms.json", "Zoomed out.json"]
 RandomlyChosenPresets = ["control.json"]
-for i in range(2):
+for i in range(1):
     if random.randint(0, 1) == 0:
         RandomlyChosenPresets.insert(0, PresetsOptions[random.randint(0, len(PresetsOptions)-1)])
     else:
@@ -206,7 +206,7 @@ for p in range(len(RandomlyChosenPresets)):
         except:
             pass
         # tempa = str(vars(Settings).values())
-        tempb = [Settings.PresetName, p+1, TotalTime, Score, Deaths]
+        tempb = [Settings.PresetName, p+1, TotalTime, Score, Deaths, "Response"]
         tempb = str(tempb).replace("'", "").replace('"', "").replace(", ", ",")
         tempb = tempb[1:len(tempb)-1]
         open("Records.csv", "a").write(str(tempb)+"\n")
